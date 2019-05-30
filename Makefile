@@ -1,4 +1,4 @@
-SRCS := main.c painter.c sprite.c utils.c
+SRCS := main.c game_object.c painter.c sprite.c utils.c
 
 OBJS := $(SRCS:.c=.o)
 HEDS := $(SRCS:.c=.h) sprite_cards.h
